@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pca-digitall/static/css/main.bf875527.chunk.css",
+    "main.js": "/pca-digitall/static/js/main.2a0b28b6.chunk.js",
+    "main.js.map": "/pca-digitall/static/js/main.2a0b28b6.chunk.js.map",
+    "runtime-main.js": "/pca-digitall/static/js/runtime-main.ae394ac5.js",
+    "runtime-main.js.map": "/pca-digitall/static/js/runtime-main.ae394ac5.js.map",
+    "static/js/2.9d77cdb8.chunk.js": "/pca-digitall/static/js/2.9d77cdb8.chunk.js",
+    "static/js/2.9d77cdb8.chunk.js.map": "/pca-digitall/static/js/2.9d77cdb8.chunk.js.map",
+    "index.html": "/pca-digitall/index.html",
+    "precache-manifest.699ef1603418a86cc7de358e02607554.js": "/pca-digitall/precache-manifest.699ef1603418a86cc7de358e02607554.js",
+    "service-worker.js": "/pca-digitall/service-worker.js",
+    "static/css/main.bf875527.chunk.css.map": "/pca-digitall/static/css/main.bf875527.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae394ac5.js",
+    "static/js/2.9d77cdb8.chunk.js",
+    "static/css/main.bf875527.chunk.css",
+    "static/js/main.2a0b28b6.chunk.js"
+  ]
+}
