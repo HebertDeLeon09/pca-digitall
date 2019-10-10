@@ -1,0 +1,68 @@
+@import '../Colours.scss';
+
+nav {
+    padding: 0;
+    margin: 0;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+    }
+
+    a {
+        padding: 10px 25px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+        transition: all 0.2s ease 0s;
+
+        &:hover{
+            background-color: white;
+            color: $blue;
+        }
+
+        &:active {
+            background-color: $blue;
+            color: white;
+            border: 0;
+        }
+    }
+
+    button {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        ul {
+            display: none;
+        }
+
+        button {
+            display: block;
+            background-color: $blue;
+            color: white;
+            border: 1px solid lightgray;
+            transition: all 0.2s ease 0s;
+            width: 100%;
+            height: 40px;
+            
+            &:focus {
+                outline: 0;
+            }
+            &:active {
+                background-color: white;
+                color: $blue;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
